@@ -8,7 +8,7 @@ size = Vector2(1198, 31)
 [node name="World" type="Node2D"]
 
 [node name="Cop" parent="." instance=ExtResource("1_jd73l")]
-position = Vector2(230, 99)
+position = Vector2(225, -73)
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

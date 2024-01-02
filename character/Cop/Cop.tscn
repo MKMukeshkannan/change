@@ -1307,3 +1307,5 @@ shape = SubResource("RectangleShape2D_3xcj3")
 position = Vector2(8, -7)
 sprite_frames = SubResource("SpriteFrames_msw5x")
 animation = &"jump_2"
+
+[node name="Camera2D" type="Camera2D" parent="."]
