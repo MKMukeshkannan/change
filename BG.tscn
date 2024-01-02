@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://c813f73f8ytla"]
+
+[ext_resource type="Texture2D" uid="uid://dgjcsxwhpmpit" path="res://Sprites/Industrial/2 Background/Background.png" id="1_61n57"]
+[ext_resource type="Script" path="res://BG.gd" id="1_w2ysm"]
+
+[node name="BG" type="ParallaxBackground"]
+script = ExtResource("1_w2ysm")
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer"]
+position = Vector2(386, 223)
+scale = Vector2(1.34028, 1.35802)
+texture = ExtResource("1_61n57")
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer2"]
+position = Vector2(1158, 223)
+scale = Vector2(1.34028, 1.35802)
+texture = ExtResource("1_61n57")
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer3"]
+position = Vector2(-386, 223)
+scale = Vector2(1.34028, 1.35802)
+texture = ExtResource("1_61n57")
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="."]
+
+[node name="Background" type="Sprite2D" parent="ParallaxLayer4"]
+position = Vector2(-1158, 223)
+scale = Vector2(1.34028, 1.35802)
+texture = ExtResource("1_61n57")
